@@ -1,0 +1,99 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+}
+.container {
+    margin: 1.2rem;
+    border: 1px solid #fefefe;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95.5vh;
+}
+
+header, header h2 {
+    margin: 0;
+}
+
+.container .title header h2 {
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+}
+
+.container main {
+    display: flex;
+    align-items: center;
+}
+
+.container main .content .title-content {
+    font-weight: 700; 
+}
+
+.container main .content p {
+    line-height: 34px;
+    letter-spacing: -.035em;
+    font-size: 1.2rem;
+}
+
+.container main .image-aside {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font: inherit;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    margin: 1.4rem 0rem;
+    font-size: .7rem;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 17px;
+    font-size: .7rem;
+}
+footer p {
+    text-align: center;
+}
+
+
+/* media queries */
+@media (min-width: 1440px) {
+    .container main {
+        flex-direction: row;
+    }
+    .container main .content .title-content h1 {
+        font-size: 6.2em;
+        line-height: 120px;
+    }
+    .container main .content p {
+        width: 32%;
+    }
+    .container main .image-aside img {
+        width: 60%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 1439px) {
+    .container main {
+        flex-direction: column;
+    }
+    .container main .content .title-content h1 {
+        font-size: 3em;
+        line-height: 65px;
+    }
+    .container main .image-aside img {
+        width: 95%;
+    }
+}
+
