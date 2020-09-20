@@ -24,6 +24,6 @@
 
 ## Contact
 
-- Website [Ferdinania](https://{www.ferdinania.com)
+- Website [Ferdinania](https://www.ferdinania.com)
 - GitHub [@andresfmj](https://github.com/andresfmj)
 - Twitter [@andresf_mj](https://twitter.com/andresf_mj)
