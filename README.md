@@ -25,5 +25,4 @@
 ## Contact
 
 - Website [Ferdinania](https://www.ferdinania.com)
-- GitHub [@Ferdroid8080](https://github.com/Ferdroid8080)
-- Twitter [@andresf_mj](https://twitter.com/andresf_mj)
+- GitHub [@andresfmj](https://github.com/andresfmj)
